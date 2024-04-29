@@ -1,0 +1,30 @@
+=============== Jan 10, 2024 (KST) ===============
+22:58:52.115310 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:58:52.121583 db@open opening
+22:58:52.122209 version@stat F·[] S·0B[] Sc·[]
+22:58:52.124992 db@janitor F·2 G·0
+22:58:52.125055 db@open done T·3.440375ms
+22:58:52.148113 db@close closing
+22:58:52.148360 db@close done T·246.416µs
+=============== Jan 10, 2024 (KST) ===============
+22:58:54.676005 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:58:54.676600 version@stat F·[] S·0B[] Sc·[]
+22:58:54.676638 db@open opening
+22:58:54.676816 journal@recovery F·1
+22:58:54.680733 journal@recovery recovering @1
+22:58:54.685975 memdb@flush created L0@2 N·12 S·886B "Hy\xd1..ZR3,v5":"r\x00\x00..ZR3,v7"
+22:58:54.690268 version@stat F·[1] S·886B[886B] Sc·[0.25]
+22:58:54.704158 db@janitor F·3 G·0
+22:58:54.704181 db@open done T·27.533666ms
+23:25:30.703659 db@close closing
+23:25:30.704899 db@close done T·1.240959ms
+=============== Jan 10, 2024 (KST) ===============
+23:26:13.919540 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:26:13.920487 version@stat F·[1] S·886B[886B] Sc·[0.25]
+23:26:13.920537 db@open opening
+23:26:13.920710 journal@recovery F·1
+23:26:14.031796 journal@recovery recovering @3
+23:26:14.038281 memdb@flush created L0@5 N·16 S·503B "Dat..ion,v14":"unc..own,v21"
+23:26:14.042152 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+23:26:14.056391 db@janitor F·4 G·0
+23:26:14.056414 db@open done T·135.868667ms

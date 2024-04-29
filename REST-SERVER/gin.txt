@@ -1,0 +1,5 @@
+/*
+1. go mod init rest //모듈을 하나 생성
+2. go get -u github.com/gin-gonic/gin // rest서버를 만들기 위해 gin package가져오기
+(참조할 예시 curl https://raw.githubusercontent.com/gin-gonic/examples/master/basic/main.go > main.go)
+*/
